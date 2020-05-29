@@ -1,0 +1,297 @@
+/* 
+====================================================
+            AUTHOR: ABHISHEK CHOHAN
+==================================================== 
+*/
+
+/* =================================================== */
+/* Scrollbar Css to beautify it */
+
+@import "scrollbar.css";
+
+
+/* ================================================= */
+
+body {
+  font-family: "Montserrat";
+  position: relative;
+  overflow: hidden;
+}
+
+/* 
+====================================================
+              NAVBAR STYLING
+==================================================== 
+*/
+
+.navbar-toggler-icon {
+  padding: 1rem;
+  height: 2.3rem;
+  width: 6rem;
+}
+
+.navbar-toggler {
+  padding: 1rem;
+}
+
+#title {
+  background-color: #44318D;
+  color: white;
+  padding-top: 2%;
+}
+
+/* Bootstrap class container-fluid override */
+.container-fluid {
+  padding: 6% 2%;
+}
+
+/* Navbar Styling */
+
+/* #title > .container-fluid > */
+.fixed-top {
+  padding: 0 2%;
+  background-color: #44318D;
+  font-size: 2rem;
+}
+
+/* navbar main logo/app name */
+.brand-style {
+  font-family: "Ubuntu";
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+
+/* 
+====================================================
+        FIRST SECTION TITLE EXCEPT NAVBAR
+==================================================== 
+*/
+
+/* h1 element */
+.main-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding: 10% 0;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.downloads-btn {
+  padding: 0 0 5% 0;
+  text-align: center;
+}
+
+/* 
+====================================================
+                FEATURE SECTION
+==================================================== 
+*/
+
+
+#features {
+  padding: 10% 2%;
+  margin-top: -9%;
+  background-color: white;
+}
+
+/* Each feature column */
+.feature-col {
+  text-align: center;
+  padding: 2%;
+}
+
+.feature-col > h3 {
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.feature-col > p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #8f8f8f;
+}
+
+.feature-col > i {
+  color: #B39BC8;
+  margin-bottom: 1rem;
+}
+
+.feature-col > i:hover {
+  color: #44318D;
+}
+
+/* 
+====================================================
+              TESTIMONIAL SECTION
+==================================================== 
+*/
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #44318D;
+  color: white;
+}
+
+.carousel-item > div > img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-item > div > h2 {
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+.carousel-control-prev {
+  margin: -20%;
+}
+.carousel-control-next {
+  margin: -20%;
+}
+
+
+/* 
+====================================================
+              PRESS SECTION
+==================================================== 
+*/
+
+#press {
+  background-color: #44318D;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press > img {
+  margin: 2%;
+  width: 15%;
+}
+
+/* 
+====================================================
+              PRICING/PLANS SECTION
+==================================================== 
+*/
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#pricing > h2 {
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+#pricing > div > div {
+  margin: 1rem 0;
+}
+
+/* Pricing menu Card header,body and btns */
+.card,
+.card-body {
+  height: 100%;
+}
+
+.card-header {
+  height: 30%;
+}
+
+.card > button,
+.btn {
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* 
+====================================================
+              CALL TO ACTION/ DOWNLOAD SECTION
+==================================================== 
+*/
+
+#cta {
+  padding: 5% 15%;
+  background-color: #44318D;
+  color: #fff;
+  text-align: center;
+}
+
+#cta > h3 {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+/* 
+====================================================
+              FOOTER SECTION
+==================================================== 
+*/
+
+#footer {
+  padding: 0 15% 0.5% 15%;
+  line-height: 2rem;
+  text-align: center;
+  background-color: black;
+  color: #8f8f8f;
+}
+
+.social_icons {
+  text-align: center;
+}
+
+.fa-1x {
+  margin: 15px 17.5px 0 17.5px;
+}
+
+/* 
+====================================================
+          DESKTOP COMPATIBILITY SECTION
+==================================================== 
+*/
+/* Media query for compatibility of higher-end device */
+@media (min-width: 992px) {
+
+  #features {
+    padding: 10% 15%;
+  }
+  .container-fluid {
+    padding: 6% 15%;
+  }
+  .fixed-top {
+    padding: 0 15%;
+    font-size: 1rem;
+  }
+  .brand-style {
+    font-size: 1.7rem;
+  }
+  .downloads-btn {
+    padding: 0 0 20% 0;
+    text-align: center;
+  }
+
+  .main-img {
+    margin-top: 20%;
+    width: 100%;
+  }
+
+  .card > button,
+.btn {
+  padding-top:1rem;
+}
+  
+}
+
+
+/* 
+====================================================
+              THE END
+==================================================== 
+*/

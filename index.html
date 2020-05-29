@@ -1,0 +1,249 @@
+<!-- 
+====================================================
+            AUTHOR: ABHISHEK CHOHAN
+====================================================  
+           PROJECT: PRODUCT LANDING PAGE (CaTinder)
+====================================================  
+            STATUS: TEMPLATE READY TO USE.
+====================================================  
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>CaTindr</title>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat%7CUbuntu&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>
+    ScrollReveal({ reset: false });  // change this to true to loop the animate effect
+  </script>
+  <style>
+    html.sr .load-hidden {
+      display: none
+    }
+  </style>
+</head>
+
+<body class="scrollable scrollable-conatiner" data-spy="scroll" data-target="#navbar" data-offset="100">
+  <!-- TITLE SECTION INCLUDING NAVBAR FIXED STYLED -->
+  <section id="title">
+
+    <!-- BOOTSTRAP NAVBAR -->
+    <div class="container-fluid">
+      <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand brand-style" href="#title">CaTindr</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#features">Features</a>
+            <a class="nav-item nav-link" href="#testimonials">Testimonial</a>
+            <a class="nav-item nav-link" href="#pricing">Pricing</a>
+            <a class="nav-item nav-link" href="#cta">Download/Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- TITLE SECTION ONLY -->
+      <div class="row">
+        <div class="col-lg-9 animate-title-left">
+          <h1 class="main-heading">
+            Meet new and interesting Cats nearby. Just a MeoW away.
+          </h1>
+          <div class="downloads-btn">
+            <button type="button" class="btn btn-dark btn-lg animate-btn">
+              <i class="fab fa-google-play"></i>
+              Download
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg animate-btn">
+              <i class="fab fa-apple"></i>
+              Download
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 animate-title-right">
+          <div class="img-container">
+            <img class="main-img" src="images/iphone6.png" alt="iphone-mockup" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FEATURES SECTION -->
+  <section id="features">
+    <div class="row">
+      <div id="feature-col-left" class="feature-col col-lg-4">
+        <i class="fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your cat could do it.</p>
+      </div>
+      <div id="feature-col-center" class="feature-col col-lg-4">
+        <i class="fas fa-bullseye fa-4x"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the cats, the greatest cats.</p>
+      </div>
+      <div id="feature-col-right" class="feature-col col-lg-4">
+        <i class="fas fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your cat's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <!-- BOOTSTRAP CAROUSEL -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div>
+            <h2>
+              I no longer have to look through window for love. I've found the
+              hottest cat on CaTindr. MeoW.
+            </h2>
+            <img src="images/cat-img.png" alt="cat-profile" />
+            <em>Maggi, Toronto ON</em>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div>
+            <h2>
+              My cat used to be so lonely, but with CaTindr's help, they've
+              found the love of their life. I think.
+            </h2>
+            <img src="images/lady-img.jpg" alt="lady-profile" />
+            <em>Racheal Green</em>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" data-target="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" data-target="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- PRESS SECTION -->
+  <section id="press">
+    <h6>&nbsp;</h6>
+    <img src="images/TechCrunch.png" alt="tc-logo" />
+    <img src="images/tnw.png" alt="tnw-logo" />
+    <img src="images/bizinsider.png" alt="biz-insider-logo" />
+    <img src="images/mashable.png" alt="mashable-logo" />
+  </section>
+
+
+  <!-- PRICING/PLANS SECTION -->
+  <section id="pricing">
+    <h2>A Plan for Every Cat's Needs</h2>
+    <p>Simple and affordable price plans for your and your cat.</p>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card card-left">
+          <div class="card-header">
+            <h3>Bobtail</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+          </div>
+          <button class="btn btn-outline-dark" type="button">
+            Sign Up
+          </button>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card card-center">
+          <div class="card-header">
+            <h3>Balinese</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+          </div>
+          <button class="btn btn-dark" type="button">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card card-right">
+          <div class="card-header">
+            <h3>Bombay</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+          </div>
+          <button class="btn btn-dark" type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- CALL TO ACTION CTA / DOWNLOAD SECTION -->
+  <section id="cta">
+    <h2>Find the True Love of Your Cat's Life Today.</h2>
+    <div>
+      <button type="button" class="btn btn-dark btn-lg">
+        <i class="fab fa-google-play"></i>
+        Download
+      </button>
+      <button type="button" class="btn btn-outline-light btn-lg">
+        <i class="fab fa-apple"></i>
+        Download
+      </button>
+    </div>
+  </section>
+
+
+
+  <!-- FOOTER SECTION -->
+  <footer id="footer">
+    <div class="social_icons">
+      <i class="fab fa-twitter fa-1x"></i>
+      <i class="fab fa-facebook-f fa-1x"></i>
+      <i class="fab fa-instagram fa-1x"></i>
+      <i class="fas fa-envelope fa-1x"></i>
+    </div>
+    <p>CaTindr Copyright &copy; 2020</p>
+  </footer>
+
+
+  <!-- ANIMAIONS SCRIPT -->
+  <script src="js/animations.js"> </script>
+
+  <!-- SMOOTH SCROLLING SCRIPT -->
+  <script src="js/smoothScroll.js"> </script>
+</body>
+
+</html>
