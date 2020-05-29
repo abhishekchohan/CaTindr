@@ -39,6 +39,25 @@
 
 <body class="scrollable scrollable-conatiner" data-spy="scroll" data-target="#navbar" data-offset="100">
   <!-- TITLE SECTION INCLUDING NAVBAR FIXED STYLED -->
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">CaTindr App</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>This is just the demo of any product landing page.<br><br>Thank you.</p>
+        </div>
+        <div class="modal-footer">
+          <p>- Abhishek Chohan.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
   <section id="title">
 
     <!-- BOOTSTRAP NAVBAR -->
@@ -66,11 +85,12 @@
             Meet new and interesting Cats nearby. Just a MeoW away.
           </h1>
           <div class="downloads-btn">
-            <button type="button" class="btn btn-dark btn-lg animate-btn">
+            <button type="button" class="btn btn-dark btn-lg animate-btn" data-toggle="modal" data-target="#myModal">
               <i class="fab fa-google-play"></i>
               Download
             </button>
-            <button type="button" class="btn btn-outline-light btn-lg animate-btn">
+            <button type="button" class="btn btn-outline-light btn-lg animate-btn" data-toggle="modal"
+              data-target="#myModal">
               <i class="fab fa-apple"></i>
               Download
             </button>
@@ -169,7 +189,7 @@
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
           </div>
-          <button class="btn btn-outline-dark" type="button">
+          <button class="btn btn-outline-dark" type="button" data-toggle="modal" data-target="#myModal">
             Sign Up
           </button>
         </div>
@@ -186,7 +206,7 @@
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
           </div>
-          <button class="btn btn-dark" type="button">Sign Up</button>
+          <button class="btn btn-dark" type="button" data-toggle="modal" data-target="#myModal">Sign Up</button>
         </div>
       </div>
 
@@ -202,7 +222,7 @@
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
           </div>
-          <button class="btn btn-dark" type="button">Sign Up</button>
+          <button class="btn btn-dark" type="button" data-toggle="modal" data-target="#myModal">Sign Up</button>
         </div>
       </div>
     </div>
@@ -214,11 +234,11 @@
   <section id="cta">
     <h2>Find the True Love of Your Cat's Life Today.</h2>
     <div>
-      <button type="button" class="btn btn-dark btn-lg">
+      <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal">
         <i class="fab fa-google-play"></i>
         Download
       </button>
-      <button type="button" class="btn btn-outline-light btn-lg">
+      <button type="button" class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#myModal">
         <i class="fab fa-apple"></i>
         Download
       </button>
@@ -237,7 +257,6 @@
     </div>
     <p>CaTindr Copyright &copy; 2020</p>
   </footer>
-
 
   <!-- ANIMAIONS SCRIPT -->
   <script src="js/animations.js"> </script>
