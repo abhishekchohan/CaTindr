@@ -292,6 +292,30 @@ body {
 
 /* 
 ====================================================
+              MODAL STYLING
+==================================================== 
+*/
+
+.modal-header > button {
+	color: tomato;
+	opacity: 1;
+}
+
+.modal-title {
+	font-weight: bolder !important;
+	color: #44318D;
+}
+
+@media (max-width: 992px) {
+
+.modal-content {
+	font-size: calc(2em + 1vw);
+	width: 90vw !important;
+	margin-left: -20vw !important;
+}
+}
+/* 
+====================================================
               THE END
 ==================================================== 
 */
