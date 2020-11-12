@@ -1,9 +1,13 @@
-# CaTindr (Product Landing Page) - is the project which I built in my spare time.
+## CaTindr
+CaTindr is a product landing page. It's design is based on mobile first approach. This project uses basic HTML, CSS and Vanilla javascript at its core although I have implemented other technologies to have cool animations. 
 
-CaTindr is like a template that can be used as any Product's Landing Page.
-
-Technologies Used -->
+#### Technologies:
 1. HTML, CSS & JAVASCRIPT
-2. JQUERY for SmoothScroll Effect
-3. ScrollReveal Library for Diffeent Animations throughout the page.
-4. Bootstrap for Some UI elements.
+2. JQUERY (SmoothScroll Effect)
+3. ScrollReveal Library (Animations)
+4. Bootstrap (Cards and some other UI components)
+5. Deployed on github-pages
+
+#### Live Demo:  https://abhishekchohan.github.io/CaTindr/
+
+![Catindr_demo](Catindr_demo.gif)
